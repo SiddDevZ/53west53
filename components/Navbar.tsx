@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <>
       {isMobile ? (
-        <nav className="fixed top-0 left-0 w-full flex items-center justify-between font-sans text-lg h-[8vh] z-40">
+        <nav className="absolute top-0 left-0 w-full flex items-center justify-between font-sans text-lg h-[8vh] z-40">
           <div className="pl-7 text-white cursor-pointer font-semibold">Logo</div>
           <div className={`mr-7 cursor-pointer text-white font-semibold ${st.underline}`} onClick={toggleMenu}>
             Menu
@@ -81,6 +81,9 @@ const Navbar = () => {
             <Link href="#" passHref>
               <div className={st.underline}>Amenities</div>
             </Link>
+          </div>
+          <div className="flex-grow flex justify-center">
+            <h5 className='text-white text-[2.3vw]'>53WEST53</h5>
           </div>
           <div className="flex space-x-10 pr-[2.5%] text-white">
             <Link href="#" passHref>
