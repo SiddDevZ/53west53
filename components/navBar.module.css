@@ -1,0 +1,23 @@
+
+.underline {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+     /* defines the space between text and underline */
+    position: relative;
+  }
+  
+  .underline::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.25s ease-out;
+  }
+  
+  .underline:hover::before {
+    width: 100%;
+  }
