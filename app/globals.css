@@ -46,7 +46,7 @@ body {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  padding-bottom: 0.30rem; /* Defines the space between text and underline */
+  padding-bottom: 0.30rem;
 }
 
 .underline::before {
@@ -68,7 +68,6 @@ body {
   text-decoration: none;
   color: inherit;
   display: inline-block;
-   /* defines the space between text and underline */
   position: relative;
 }
 
@@ -91,7 +90,6 @@ body {
   text-decoration: none;
   color: inherit;
   display: inline-block;
-   /* defines the space between text and underline */
   position: relative;
 }
 
@@ -142,7 +140,7 @@ body {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  padding-bottom: 1rem; /* Defines the space between text and underline */
+  padding-bottom: 1rem;
 }
 
 .underline3::before {

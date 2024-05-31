@@ -13,9 +13,9 @@ const config: Config = {
         greee: "rgba(255, 255, 255, 0.2)"
       },
       screens: {
-        'xs': '220px',  // Custom breakpoint for extra small screens
+        'xs': '220px', 
         'xsm': '480px',
-        '3xl': '1920px', // Custom breakpoint for 3xl screens
+        '3xl': '1920px',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
