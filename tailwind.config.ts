@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        brown: "rgb(138, 108, 96)",
+        greee: "rgba(255, 255, 255, 0.2)"
+      },
+      screens: {
+        'xs': '220px',  // Custom breakpoint for extra small screens
+        'xsm': '480px',
+        '3xl': '1920px', // Custom breakpoint for 3xl screens
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
