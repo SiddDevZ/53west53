@@ -40,7 +40,7 @@ const Navbar = () => {
                 </Link>
                 <button className={st.underline} onClick={toggleMenu}>Close</button>
               </div>
-              <div className='nav-pt2 uppercase flex flex-col h-full space-y-[4vh] md:text-[5vw] sm:text-[7vw] text-[8vw]'>
+              <div className='nav-pt2 uppercase flex flex-col h-full space-y-[4vh] md:text-[5vw] sm:text-[7vw] text-[8vw] font-dg'>
                 <Link href="#" passHref>
                   <div className="underline3" onClick={toggleMenu}>Design</div>
                 </Link>

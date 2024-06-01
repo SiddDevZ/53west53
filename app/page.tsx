@@ -18,15 +18,15 @@ export default function Home() {
           ></video>
         </div>
         <div className="absolute bottom-0 left-0 px-7 py-4 z-10 w-full text-white">
-          <h2 className="text-[8vw] leading-none">A MODERN</h2>
-          <h2 className="text-[8vw] leading-none">HEIRLOOM</h2>
+          <h2 className="text-[8vw] font-dg leading-none">A MODERN</h2>
+          <h2 className="text-[8vw] font-dg leading-none">HEIRLOOM</h2>
         </div>
       </main>
       <div className="px-[3%] py-[3%]">
         <div className="part-1">
-          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full">A WORLD AWAY</h2>
-          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full">FROM ORDINARY</h2>
-          <h6 className="text-brown max-w-[90%] 2xl:max-w-[34%] lg:max-w-[40%] xl:max-w-[37%] md:max-w-[44%] sm:max-w-[53%] 2xl:mt-7 xl:mt-7 lg:mt-7 sm:mt-5 xs:mt-4 font-mono text-[2.9vw] leading-7 xsm:leading-5 xs:leading-4 md:text-[1.8vw] lg:text-[1.5vw] 2xl:text-[2vw] xl:leading-7 lg:leading-7 md:leading-6 sm:leading-5 2xl:leading-9">A sculptural icon for Manhattan by Jean Nouvel and Thierry Despont. Condominium residences with panoramic views, inspired service and amenities, and custom finishes and detailing.</h6>
+          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full font-dg">A WORLD AWAY</h2>
+          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full font-dg">FROM ORDINARY</h2>
+          <h6 className="text-brown max-w-[90%] font-brad 2xl:max-w-[34%] lg:max-w-[40%] xl:max-w-[37%] md:max-w-[44%] sm:max-w-[53%] 2xl:mt-7 xl:mt-7 lg:mt-7 sm:mt-5 xs:mt-4 text-[2.9vw] leading-7 xsm:leading-5 xs:leading-4 md:text-[1.8vw] lg:text-[1.5vw] 2xl:text-[2vw] xl:leading-7 lg:leading-7 md:leading-6 sm:leading-5 2xl:leading-9">A sculptural icon for Manhattan by Jean Nouvel and Thierry Despont. Condominium residences with panoramic views, inspired service and amenities, and custom finishes and detailing.</h6>
         </div>
         <div className="part-2 mt-[5%] s:mt-25 flex lg:flex-row md:flex-row sm:flex-row xsm:flex-col xs:flex-col lg:justify-between md:justify-between sm:justify-between">
           <div className="lg:h-7 md:h-6 sm:h-7">
@@ -44,9 +44,9 @@ export default function Home() {
 
       <div className="px-[3%] py-[3%]">
         <div className="part-1">
-          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full">THE WONDER</h2>
-          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full">WE SEEK</h2>
-          <h6 className="text-brown max-w-[90%] 2xl:max-w-[34%] lg:max-w-[40%] xl:max-w-[37%] md:max-w-[44%] sm:max-w-[53%] 2xl:mt-7 xl:mt-7 lg:mt-7 sm:mt-5 xs:mt-4 font-mono text-[2.9vw] leading-7 xsm:leading-5 xs:leading-4 md:text-[1.8vw] lg:text-[1.5vw] 2xl:text-[2vw] xl:leading-7 lg:leading-7 md:leading-6 sm:leading-5 2xl:leading-9">53 West 53’s distinctive and visionary sculptural form rises above New York City’s iconic Museum of Modern Art. The tower’s expressive architecture is shaped by an original and artistic response to its context—including the forces of nature and the vitality of the streetscape—and allows the building to achieve expansive interior spaces through the marriage of technical innovation and exacting attention to detail.</h6>
+          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full font-dg">THE WONDER</h2>
+          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full font-dg">WE SEEK</h2>
+          <h6 className="text-brown max-w-[90%] font-brad 2xl:max-w-[34%] lg:max-w-[40%] xl:max-w-[37%] md:max-w-[44%] sm:max-w-[53%] 2xl:mt-7 xl:mt-7 lg:mt-7 sm:mt-5 xs:mt-4 text-[2.9vw] leading-7 xsm:leading-5 xs:leading-4 md:text-[1.8vw] lg:text-[1.5vw] 2xl:text-[2vw] xl:leading-7 lg:leading-7 md:leading-6 sm:leading-5 2xl:leading-9">53 West 53’s distinctive and visionary sculptural form rises above New York City’s iconic Museum of Modern Art. The tower’s expressive architecture is shaped by an original and artistic response to its context—including the forces of nature and the vitality of the streetscape—and allows the building to achieve expansive interior spaces through the marriage of technical innovation and exacting attention to detail.</h6>
         </div>
         <div className="part-2 mt-[5%] s:mt-25 flex lg:flex-row md:flex-row sm:flex-row xsm:flex-col xs:flex-col lg:justify-between md:justify-between sm:justify-between">
           <div className="lg:h-7 md:h-6 sm:h-7">
@@ -65,10 +65,10 @@ export default function Home() {
 
       <div className="px-[3%] py-[3%]">
         <div className="part-1">
-          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full">SINGULAR</h2>
-          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full">SPACES IN</h2>
-          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full">THE SKY</h2>
-          <h6 className="text-brown max-w-[90%] 2xl:max-w-[34%] lg:max-w-[40%] xl:max-w-[37%] md:max-w-[44%] sm:max-w-[53%] 2xl:mt-7 xl:mt-7 lg:mt-7 sm:mt-5 xs:mt-4 font-mono text-[2.9vw] leading-7 xsm:leading-5 xs:leading-4 md:text-[1.8vw] lg:text-[1.5vw] 2xl:text-[2vw] xl:leading-7 lg:leading-7 md:leading-6 sm:leading-5 2xl:leading-9">53 West 53’s distinctive and visionary sculptural form rises above New York City’s iconic Museum of Modern Art. The tower’s expressive architecture is shaped by an original and artistic response to its context—including the forces of nature and the vitality of the streetscape—and allows the building to achieve expansive interior spaces through the marriage of technical innovation and exacting attention to detail.</h6>
+          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full font-dg">SINGULAR</h2>
+          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full font-dg">SPACES IN</h2>
+          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full font-dg">THE SKY</h2>
+          <h6 className="text-brown max-w-[90%] font-brad 2xl:max-w-[34%] lg:max-w-[40%] xl:max-w-[37%] md:max-w-[44%] sm:max-w-[53%] 2xl:mt-7 xl:mt-7 lg:mt-7 sm:mt-5 xs:mt-4 text-[2.9vw] leading-7 xsm:leading-5 xs:leading-4 md:text-[1.8vw] lg:text-[1.5vw] 2xl:text-[2vw] xl:leading-7 lg:leading-7 md:leading-6 sm:leading-5 2xl:leading-9">53 West 53’s distinctive and visionary sculptural form rises above New York City’s iconic Museum of Modern Art. The tower’s expressive architecture is shaped by an original and artistic response to its context—including the forces of nature and the vitality of the streetscape—and allows the building to achieve expansive interior spaces through the marriage of technical innovation and exacting attention to detail.</h6>
         </div>
         <div className="part-2 mt-[5%] s:mt-25 flex lg:flex-row md:flex-row sm:flex-row xsm:flex-col xs:flex-col lg:justify-between md:justify-between sm:justify-between">
           <div className="flex flex-col justify-between">
@@ -94,9 +94,9 @@ export default function Home() {
       
       <div className="px-[3%] py-[3%]">
         <div className="part-1">
-          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full">THE HEARTBEAT</h2>
-          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full">OF THE CITY</h2>
-          <h6 className="text-brown max-w-[90%] 2xl:max-w-[34%] lg:max-w-[40%] xl:max-w-[37%] md:max-w-[44%] sm:max-w-[53%] 2xl:mt-7 xl:mt-7 lg:mt-7 sm:mt-5 xs:mt-4 font-mono text-[2.9vw] leading-7 xsm:leading-5 xs:leading-4 md:text-[1.8vw] lg:text-[1.5vw] 2xl:text-[2vw] xl:leading-7 lg:leading-7 md:leading-6 sm:leading-5 2xl:leading-9">Midtown is a sophisticated yet energetic neighborhood surrounded by the best of New York—iconic cultural institutions, fine dining and nightlife, shopping and entertainment, and the world’s biggest backyard—Central Park.</h6>
+          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full font-dg">THE HEARTBEAT</h2>
+          <h2 className="text-[11vw] lg:text-[7vw] md:text-[7vw] sm:text-[8vw] text-brown leading-none w-full font-dg">OF THE CITY</h2>
+          <h6 className="text-brown max-w-[90%] font-brad 2xl:max-w-[34%] lg:max-w-[40%] xl:max-w-[37%] md:max-w-[44%] sm:max-w-[53%] 2xl:mt-7 xl:mt-7 lg:mt-7 sm:mt-5 xs:mt-4 text-[2.9vw] leading-7 xsm:leading-5 xs:leading-4 md:text-[1.8vw] lg:text-[1.5vw] 2xl:text-[2vw] xl:leading-7 lg:leading-7 md:leading-6 sm:leading-5 2xl:leading-9">Midtown is a sophisticated yet energetic neighborhood surrounded by the best of New York—iconic cultural institutions, fine dining and nightlife, shopping and entertainment, and the world’s biggest backyard—Central Park.</h6>
         </div>
         <div className="part-2 mt-[5%] s:mt-25 flex lg:flex-row md:flex-row sm:flex-row xsm:flex-col xs:flex-col lg:justify-between md:justify-between sm:justify-between">
           <div className="lg:h-7 md:h-6 sm:h-7">
