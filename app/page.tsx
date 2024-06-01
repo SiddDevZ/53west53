@@ -29,7 +29,7 @@ export default function Home() {
           <h6 className="text-brown max-w-[90%] font-brad 2xl:max-w-[34%] lg:max-w-[40%] xl:max-w-[37%] md:max-w-[44%] sm:max-w-[53%] 2xl:mt-7 xl:mt-7 lg:mt-7 sm:mt-5 xs:mt-4 text-[2.9vw] leading-7 xsm:leading-5 xs:leading-4 md:text-[1.8vw] lg:text-[1.5vw] 2xl:text-[2vw] xl:leading-7 lg:leading-7 md:leading-6 sm:leading-5 2xl:leading-9">A sculptural icon for Manhattan by Jean Nouvel and Thierry Despont. Condominium residences with panoramic views, inspired service and amenities, and custom finishes and detailing.</h6>
         </div>
         <div className="part-2 mt-[5%] s:mt-25 flex lg:flex-row md:flex-row sm:flex-row xsm:flex-col xs:flex-col lg:justify-between md:justify-between sm:justify-between">
-          <div className="lg:h-7 md:h-6 sm:h-7">
+          <div className="lg:h-9 md:h-6 sm:h-7">
             <a href="#" className="text-brown underline font-hardt font-medium lg:text-[1.6vw] sm:text-[2vw] xs:text-[4vw] leading-none flex items-center h-full xs:mb-5">
               <span className="mr-5">EXPLORE AVAILABILITY</span>
               <i className="ri-arrow-right-line"></i>
