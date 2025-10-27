@@ -10,6 +10,11 @@ const config: Config = {
     extend: {
       colors: {
         brown: "rgb(138, 108, 96)",
+        sage: "rgb(68, 84, 64)",
+        olive: "rgb(85, 98, 75)",
+        cream: "rgb(250, 248, 242)",
+        charcoal: "rgb(45, 45, 45)",
+        softGold: "rgb(198, 180, 145)",
         greee: "rgba(255, 255, 255, 0.2)"
       },
       screens: {
@@ -24,7 +29,13 @@ const config: Config = {
       },
       fontFamily: {
         dg: ["diagrid"],
-        brad: ["brad"]
+        brad: ["brad"],
+        playfair: ['Playfair Display', 'serif'],
+        cormorant: ['Cormorant Garamond', 'serif'],
+        crimson: ['Crimson Pro', 'serif']
+      },
+      letterSpacing: {
+        'widest-xl': '0.15em',
       }
     },
   },
